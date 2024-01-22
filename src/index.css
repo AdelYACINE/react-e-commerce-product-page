@@ -454,6 +454,7 @@ html {
   }
   .img-principal-container {
     flex: 1;
+    max-width: 120%;
   }
 
   .hidden {
@@ -461,41 +462,32 @@ html {
   }
   .container-icon {
     position: absolute;
-    top: 28%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
     align-items: center;
-    gap: 32rem;
+    justify-content: space-between;
+    gap: 42rem;
   }
   .text-side {
     padding: 3.2rem;
   }
+  .img-primary {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 0;
+  }
 }
 @media (max-width: 380px) {
   .container-icon {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
-    gap: 32rem;
+    top: 38%;
   }
 }
 
 @media (max-width: 365px) {
   html {
     font-size: 42%;
-  }
-  .container-icon {
-    position: absolute;
-    top: 28%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    align-items: center;
-    gap: 32rem;
   }
 }
 @media (max-width: 320px) {
@@ -504,5 +496,8 @@ html {
   }
   .logo {
     width: 80%;
+  }
+  .container-icon {
+    top: 28%;
   }
 }
