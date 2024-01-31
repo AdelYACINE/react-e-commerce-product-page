@@ -88,7 +88,7 @@ html {
   right: 0;
   bottom: 0;
   background-color: white;
-  max-width: 20rem;
+  max-width: 30rem;
   height: 100vh;
   z-index: 100;
   padding: 3.2rem;
@@ -108,6 +108,7 @@ html {
 .link-mobile {
   color: black;
   font-weight: 700;
+  font-size: 1.6rem;
 }
 .overlay-mobile {
   background-color: rgba(0, 0, 0, 0.656);
@@ -478,16 +479,25 @@ html {
     object-fit: cover;
     border-radius: 0;
   }
+  .link-mobile {
+    font-size: 1.6rem;
+  }
 }
 @media (max-width: 380px) {
   .container-icon {
     top: 38%;
+  }
+  .link-mobile {
+    font-size: 1.6rem;
   }
 }
 
 @media (max-width: 365px) {
   html {
     font-size: 42%;
+  }
+  .link-mobile {
+    font-size: 1.6rem;
   }
 }
 @media (max-width: 320px) {
@@ -499,5 +509,8 @@ html {
   }
   .container-icon {
     top: 28%;
+  }
+  .link-mobile {
+    font-size: 1.6rem;
   }
 }
