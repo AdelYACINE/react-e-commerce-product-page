@@ -108,7 +108,7 @@ html {
 .link-mobile {
   color: black;
   font-weight: 700;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .overlay-mobile {
   background-color: rgba(0, 0, 0, 0.656);
@@ -480,7 +480,7 @@ html {
     border-radius: 0;
   }
   .link-mobile {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 }
 @media (max-width: 380px) {
@@ -488,7 +488,7 @@ html {
     top: 38%;
   }
   .link-mobile {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 }
 
@@ -497,7 +497,7 @@ html {
     font-size: 42%;
   }
   .link-mobile {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 }
 @media (max-width: 320px) {
@@ -511,6 +511,6 @@ html {
     top: 28%;
   }
   .link-mobile {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 }
